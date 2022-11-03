@@ -1,0 +1,25 @@
+.about{
+    position: relative;
+}
+.about .code{
+    margin-top: 20px;
+    width: 100%;
+}
+.about h1{
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    color: white;
+}
+.about .us{
+    width: 80%;
+    margin: auto;
+}
+.about .us h2{
+    font-weight: 500;
+}
+.about .us p{
+    font-size: 16px;
+}
