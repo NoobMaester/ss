@@ -5,7 +5,7 @@ import iot from './../../img/iot.svg'
 
 const Projects = () => {
   return (
-    <div className={classes.project}>
+    <div id='projects' className={classes.project}>
         <h1>Projects</h1>
         <div className={classes.underline}></div>
 
@@ -13,7 +13,8 @@ const Projects = () => {
             <div className={classes.card}>
                 <img src={data} alt="data" />
                 <h2>Data Science</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
             </div>
             <div className={classes.card}>
                 <img src={web} alt="web" />
