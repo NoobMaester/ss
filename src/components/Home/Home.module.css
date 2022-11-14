@@ -1,5 +1,5 @@
 .home{
-    background: url('./../../img/dev.jpg');
+    background: url('./../../img/devv.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,7 +12,7 @@
     width: 50%;
     position: absolute;
     right: 4%;
-    top: 20%;
+    top: 40%;
     text-align: center;
     color: white;
 }
@@ -24,17 +24,26 @@
     margin: 0;
 }
 .home .container p{
+    margin-top: 2rem;
     letter-spacing: 1.5px;
 }
-.home .binary{
-    height: 30%;
-    position: absolute;
-    right: 10%;
-    top: 20%;
-}
-.home .code{
-    height: 24%;
-    position: absolute;
-    bottom: 0;
-    right: 10%;
+
+
+
+@media (max-width:768px){
+    .home .container{
+        top: 20%;
+        width: 100%;
+        position: relative;
+    }
+    .home .container .hello{
+        font-size: 28px;
+        line-height: normal;
+    }
+    .home .container p{
+        width: 80%;
+        margin: 2rem auto;
+        font-size: 14px;
+        text-align: center;
+    }
 }

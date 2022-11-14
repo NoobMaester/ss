@@ -7,7 +7,6 @@ const Projects = () => {
   return (
     <div id='projects' className={classes.project}>
         <h1>Projects</h1>
-        <div className={classes.underline}></div>
 
         <div className={classes.cards}>
             <div className={classes.card}>

@@ -38,3 +38,48 @@
 .navbar a:hover{
     border-bottom: 3px solid #8C1CD1;
 }
+.navbar .mobileNav{
+    display: none;
+}
+
+
+@media (max-width:768px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar .nav{
+        display: none;
+    }
+    .navbar .mobileNav{
+        display: flex;
+        align-items: center;
+    }
+    .hamburger{
+        cursor: pointer;
+        position: absolute;
+        right: 5%;
+    }
+    .navbar ul li a{
+        font-size: 16px;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        padding: 1rem;
+        background: #2b2b2b;
+        top: 80px;
+        right: 0;
+        width: 100vw;
+        border-top: 2px solid #8C1CD1;
+        height: 100vh;
+    }
+    .navbar a:hover{
+        color: #8C1CD1;
+        border-bottom: none;
+        font-weight: bold;
+        transition: font-weight 0.5s ease;
+    }
+}

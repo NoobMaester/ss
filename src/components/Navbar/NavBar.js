@@ -1,17 +1,16 @@
+import MobileNavigation from './MobileNavigation';
 import classes from './NavBar.module.css';
+import Navigation from './Navigation';
+
 
 const NavBar = () => {
   return (
     <div>
-        <nav className={classes.navbar}>
-            <h1>Name</h1>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/#about">About Us</a></li>
-                <li><a href="/#projects">Projects</a></li>
-                <li><a href="/#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+      <nav className={classes.navbar}>
+        <h1>Name</h1>
+        <Navigation/>
+        <MobileNavigation/>     
+      </nav>
     </div>
   )
 }

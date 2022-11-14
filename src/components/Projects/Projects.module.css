@@ -1,18 +1,18 @@
 .project{
-    background: #F5F5DC;
+    background: #2596be;
+    height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
 }
 .project h1{
     margin-left: 10%;
-}
-.underline{
-    width: 5%;
-    height: 2px;
-    color: #8C1CD1;
 }
 .cards{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 .card{
@@ -38,3 +38,14 @@
     font-size: 14px;
 }
 
+
+@media (max-width:768px){
+    .project{
+        height: auto;
+    }
+    .project h1{
+        text-align: center;
+        margin-left: 0;
+    }
+    
+}
