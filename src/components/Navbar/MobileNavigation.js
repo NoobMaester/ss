@@ -12,10 +12,12 @@ const MobileNavigation = () => {
 
   const menuClose = <AiOutlineClose className={classes.hamburger} size='40px' color='white' onClick={()=> setOpen(!open)}/>
 
+  const closeMenu = () => setOpen(false);
+
   return (
     <nav className={classes.mobileNav}>
       {open ? menuClose : menuOpen}
-      {open && <NavLinks/>}
+      {open && <NavLinks isMobile={true} closeMenu={closeMenu}/>}
     </nav>
   )
 }
