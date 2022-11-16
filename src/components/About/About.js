@@ -7,8 +7,8 @@ const About = () => {
       <img className={classes.code} src={code} alt="us" />
       <h1>About us</h1>
       <div className={classes.us}>
-        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sit est tempore iste neque iusto aliquam sequi reiciendis, quae, consectetur, quas unde alias praesentium omnis at temporibus nulla necessitatibus. Laboriosam?</p>
+        <h2>We provide smart Truck shipment&transport services</h2>
+        <p>A software company that create smart transport solutions for container owners.</p>
       </div>
     </div>
   )
