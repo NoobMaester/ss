@@ -18,7 +18,7 @@ const Projects = () => {
             <div className={classes.card}>
                 <img src={web} alt="web" />
                 <h2>Web Development</h2>
-                <p>We specialise mostly in web Application. we bring solution to the finger tips of your customers</p>
+                <p>We specialise mostly in web Applications. we bring solutions to the finger tips of your customers</p>
             </div>
         </div>
     </div>
