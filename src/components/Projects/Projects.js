@@ -1,6 +1,7 @@
 import classes from './Projects.module.css'
-import data from './../../img/data.svg'
+import mob from './../../img/mob.svg'
 import web from './../../img/web.svg'
+import prog from './../../img/prog.png'
 
 const Projects = () => {
   return (
@@ -8,18 +9,23 @@ const Projects = () => {
         <h1>Projects</h1>
 
         <div className={classes.cards}>
+          <div>
             <div className={classes.card}>
-                <img src={data} alt="data" />
+              <img src={mob} alt="mobile" />
 
-                <h2>Mobile applications</h2>
-                <p>We develop responsive and problem solving modern mobile applications using Python and Javascript frameworks</p>
+              <h2>Mobile applications</h2>
+              <p>We develop responsive and problem solving modern mobile applications using Python and Javascript frameworks</p>
 
             </div>
+
             <div className={classes.card}>
-                <img src={web} alt="web" />
-                <h2>Web Development</h2>
-                <p>We specialise mostly in web Applications. we bring solutions to the finger tips of your customers</p>
+              <img src={web} alt="web" />
+              <h2>Web Development</h2>
+              <p>We specialise mostly in web Applications. we bring solutions to the finger tips of your customers</p>
             </div>
+          </div>
+
+          <img className={classes.pj} src={prog} alt="prog" />
         </div>
     </div>
   )

@@ -10,10 +10,14 @@
     margin: 2rem auto;
     justify-content: space-between;
 }
-.contact h1{
+
+.title{
     color: #3f3d56;
+    margin-left: 10%;
 }
+
 .form{
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +65,10 @@
 
 
 @media (max-width:768px){
+    .title{
+        text-align: center;
+        margin-left: 0;
+    }
     .contact{
         flex-direction: column;
         align-items: center;
